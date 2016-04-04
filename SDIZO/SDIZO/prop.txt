@@ -1,0 +1,16 @@
+results.txt
+dane.txt
+10000
+19999
+-9999
+
+
+
+
+
+na kolejnych pozaycjach:
+plik z wynikami dest
+plik z Ÿród³em
+iloœæ danych do losowania
+zakres dolny 
+zakres górny

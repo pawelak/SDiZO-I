@@ -5,8 +5,6 @@
 class TWList
 {
 private:
-	
-public:
 	struct data
 	{
 		int value;
@@ -15,19 +13,22 @@ public:
 	};
 	data *top;
 	data *bot;
-	data *current;
-	data *currentOld;
 	int counter;
-	void addN(int value);
-	void addP(int value);
-	string addM(int value, int after);
-	string addCount(int value, int after);
-	string del(int a);
-	TWList();
-	void firstt(int value);
-	void printall();
-	void printlallall();
-	TWList(int value);
+public:
+	
+
+	
 	~TWList();
+	TWList();
+	TWList(string source);
+	void setc(int a);
+	int getc();
+	void printall();
+	void print();
+	void addE(int value);
+	void addP(int value);
+	void addCount(int value, int id);
+	void del(int id);
+	bool check(int val);
 };
 

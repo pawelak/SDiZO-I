@@ -145,6 +145,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Heap.h" />
     <ClInclude Include="MENU.h" />
     <ClInclude Include="RandData.h" />
     <ClInclude Include="SDIZO.h" />
@@ -154,6 +155,7 @@
     <ClInclude Include="TWList.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Heap.cpp" />
     <ClCompile Include="MENU.cpp" />
     <ClCompile Include="RandData.cpp" />
     <ClCompile Include="SDIZO.cpp" />
